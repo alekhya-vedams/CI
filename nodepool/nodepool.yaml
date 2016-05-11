@@ -51,7 +51,8 @@ providers:
     password: 'Vedams@123'
     auth-url: 'http://172.16.2.237:5000/v2.0'
     project-name: 'admin'
-    max-servers: 2
+    boot-timeout: 1200
+    max-servers: 1
     images:
       - name: dpc
         min-ram: 8192
