@@ -55,7 +55,7 @@ providers:
     max-servers: 1
     images:
       - name: dpc
-        min-ram: 4096
+        min-ram: 8192
         diskimage: dpc
         username: jenkins
         private-key: '/home/nodepool/.ssh/id_rsa'
